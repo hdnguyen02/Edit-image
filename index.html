@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit image</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Easy Image Editor</h1>
+        <div class="wrapper">
+            <div class="wrap-edit">
+                <div class="wrap-filter">
+                    <h2>Filters</h2>
+                    <div class="group-button">
+                        <button class="button-filter">Brightness</button>
+                        <button class="button-filter">Saturation</button>
+                        <button class="button-filter">Inversion</button>
+                        <button class="button-filter">Grayscale</button>
+                    </div> 
+                    <div class="slider">
+                        <div class="info-slider">
+                            <p class="curent-filter">Brightness</p>
+                            <p class="show-value-range">100%</p>
+                        </div>
+                        <input type="range" min="0" max="200" value="100">
+                        
+                    </div>
+
+                </div>
+                <div class="wrap-rotate-flip">
+                    <div class="group-button">
+                        <button class="button-filter">Brightness</button>
+                        <button class="button-filter">Saturation</button>
+                        <button class="button-filter">Inversion</button>
+                        <button class="button-filter">Grayscale</button>
+                    </div> 
+                </div>
+            </div>
+            <div class="wrap-img">
+                <img src="./image/image-placeholder.svg">
+            </div>
+        </div>
+        <div class="control">
+            <button class="btn-reset-filter">reset filter</button>
+            <div class="wrap-choose-save">
+            <button class="btn-choose-image">choose image</button>
+            <button class="btn-save-image">save image</button>
+
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
